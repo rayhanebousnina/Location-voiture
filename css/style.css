@@ -1,0 +1,36 @@
+span {
+    color: #ef233c;
+}
+#icon-tel {
+    height: 25px;
+    width: auto;
+}
+.carousel-img {
+    height: 33rem;
+}
+.reserver {
+    background-color: #ef233c;
+    height: 10rem;
+}
+.btn-reserver {
+    width: 18rem;
+}
+.promotion {
+    background-color: #EDF2F4;
+}
+.chiffres {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/home/rayhane/Desktop/Location-Voiture-Bootstrap/images/tobias-a-muller-rOLKpojjbGM-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 20rem;
+}
+.key {
+    background-color: #D80032;
+}
+.key:hover {
+    background-color: #5e2d33;
+}
+.testimonial {
+    background-color: #EDF2F4;
+}
