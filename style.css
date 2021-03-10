@@ -1,0 +1,85 @@
+span {
+    color: #ef233c;
+}
+#icon-tel {
+    height: 25px;
+    width: auto;
+}
+
+.reserver {
+    background-color: #ef233c;
+    height: 10rem;
+}
+.btn-reserver {
+    width: 18rem;
+}
+.promotion {
+    background-color: #EDF2F4;
+}
+.chiffres {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(/home/rayhane/Desktop/Location-Voiture-Bootstrap/images/tobias-a-muller-rOLKpojjbGM-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 20rem;
+}
+.key {
+    border-radius: 0.2rem;
+    background-color: #D80032;
+}
+.key:hover {
+    background-color: #5e2d33;
+}
+.testimonial {
+    background-color: #EDF2F4;
+}
+.partners {
+    background-color: #5e2d33;
+}
+.partner-img {
+    background-color: #EDF2F4;
+    border-radius: 50%;
+}
+.footer {
+    background-color: #111116;
+    color: white;
+}
+.liens {
+    list-style: none;
+}
+.liens a {
+    color: white;
+}
+.liens a:hover {
+    color: white;
+}
+.about-cover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.637)),
+    url(/home/rayhane/Desktop/Location-Voiture-Bootstrap/images/tobias-a-muller-rOLKpojjbGM-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 20rem;
+}
+.cover-title {
+    padding-top: 12rem;
+}
+.about-img {
+    
+}
+.about {
+    background-color: #EDF2F4;
+}
+.bg-black {
+    background-color: #D80032;
+    border-top-right-radius: 8rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.bg-gold {
+
+    background-color: #2B2D42;
+    border-top-left-radius: 8rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.faq {
+    background-color: #EDF2F4;
+}

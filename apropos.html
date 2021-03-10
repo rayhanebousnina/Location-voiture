@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">    
+    <title>DrivingEngine</title>
+</head>
+<body>  
+    <!--Topbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-3">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  TND
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">EUR</a>
+                  <a class="dropdown-item" href="#">USD</a>  
+                </div>        
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-envelope"></i> contact@drivingengine.com</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fab fa-whatsapp"></i> +216 55 847 633</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-user-circle"></i> Connexion</a>
+            </li>            
+        </ul>
+    </nav>
+    <!--/.Topbar-->
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span>Driving</span>Engine</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active pt-3">
+              <a class="nav-link px-3" href="accueil.html">Accueil <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item pt-3">
+              <a class="nav-link px-3" href="apropos.html">A propos</a>
+            </li>
+            <li class="nav-item pt-3 ">
+              <a class="nav-link px-3" href="voiture.html">Nos voitures</a>
+            </li>
+            <li class="nav-item pt-3">
+              <a class="nav-link px-3 mb-3" href="contact.html">Contact</a>
+            </li>
+            <li>
+          </ul>    
+        </div>
+      </div>
+    </nav>
+    <!--/.Navbar-->
+    
+    <!--Cover-->
+    <div class="container-fluid about-cover">
+        <h1 class="text-light cover-title">A propos de nous</h1>
+    </div>
+    <!--/.Cover-->    
+
+    <!--Section : A propos de nous-->
+    <div class="container-fluid about">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6 p-5 bg-black text-dark">
+                <h2>DrivingEngine</h2>
+                Avec plus de deux décennies d'expérience riche sur le marché tunisien, chez DrivingEngine, nous sommes fiers d'être reconnus comme l'une des sociétés de location de voitures les plus fiables et à la croissance la plus rapide à Tunisie. Depuis notre création, nous avons travaillé avec un accent clair sur l'innovation et nous nous efforçons continuellement d'améliorer nos services à chaque étape. De la proximité client aux produits de qualité et aux offres exclusives, nous nous engageons à rendre un service entièrement personnalisé, que ce soit pour un particulier ou une entreprise.
+            </div>
+            <div class="col-md-6"><img class="img-fluid about-img" src="images/1.jpg" alt=""></div>
+        </div>
+    </div>
+    <!--/.Section : A propos de nous-->
+
+    <!--Section : FAQ-->
+    <div class="container-fluid faq py-5">
+        <div class="row">
+            <h1>FAQ : Foire aux questions</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-6">   
+                <!--collapse 1-->             
+                <div class="p-3">
+                    <p>                    
+                        <button class="btn btn-primary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                            Quels types de documents dois-je présenter aux représentants d'une société de location lors de la prise en charge d'une voiture?
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample1">
+                        <div class="card card-body">
+                            Vous devez avoir une carte de crédit au nom du conducteur principal avec des fonds suffisants pour couvrir la franchise et le permis de conduire. Dans certains cas, soyez également prêt à fournir un billet d'avion et un passeport.
+                        </div>
+                    </div>
+                </div>
+                <!--collapse 2-->  
+                <div class="p-3">
+                    <p>                    
+                        <button class="btn btn-primary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                            Puis-je traverser la frontière d'un pays où j'ai loué une voiture?
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample2">
+                        <div class="card card-body">
+                            Oui, c’est possible, mais pas dans tous les cas.
+                        </div>
+                    </div>
+                </div>
+                <!--collapse 3-->  
+                <div class="p-3">
+                    <p>                    
+                        <button class="btn btn-primary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                            Qu'est-ce qui est inclus dans le service de location de voitures sur le site Web DrivingEngine?
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample3">
+                        <div class="card card-body">
+                            Le service de location comprend: <br>
+
+                                - Tarif pour toute la période de location de voiture; <br>
+                                - TVA locale; <br>
+                                - Collision Damage Waiver (CDW, la franchise est à partir de 200 dt); <br>
+                                - Kilométrage illimité; <br>
+                                - Protection contre la responsabilité civile (sans franchise); <br>
+                                - les frais d'aéroport; <br>
+                                - Renonciation au vol (la franchise est à partir de 200 dt); <br>
+                                - Assistance dépannage 24h / 24 d'un courtier de location de véhicules DrivingEngine; <br>
+                                - Assistance de dépannage 24 heures sur 24 d'une location de véhicule locale. <br>
+                        </div>
+                    </div>
+                </div>
+                <!--collapse 4-->  
+                <div class="p-3">
+                    <p>                    
+                        <button class="btn btn-primary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+                            Dois-je payer des frais locaux supplémentaires?
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample4">
+                        <div class="card card-body">
+                            Pour la commodité de nos clients, cars-scanner.com essaie de fournir des services de location de voitures avec un système «tout compris». Mais certains pays exigent le paiement de taxes locales. Par exemple, à Jersey et à la Barbade, des frais de licence sont facturés, en République d'Afrique du Sud, des frais de contrat imposés, en Autriche - une taxe gouvernementale.
+                            Vous devrez également payer certains extras à une société de location de voitures (barres de toit pour skis et vélos, sièges enfants, assurance complémentaire, etc.). Votre bon précise clairement tous les frais obligatoires que vous devez payer lors de la réservation.
+                        </div>
+                    </div>
+                </div>
+                <!--collapse 5-->  
+                <div class="p-3">
+                    <p>                    
+                        <button class="btn btn-primary w-100" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+                            Puis-je modifier ma réservation?
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample5">
+                        <div class="card card-body">
+                            Oui, vous pouvez effectuer des modifications via un formulaire spécial sur le site Web.
+                            Les modifications effectuées 24 heures avant le début de la location sont gratuites. S'ils sont effectués moins de 24 heures avant que cars-scanner.com ne commence à rendre des services, votre dépôt devient non remboursable. Notre recommandation est de vérifier attentivement les informations sur les modifications de votre réservation.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mt-2 p-5 mb-5 bg-gold text-light">
+                <h2>Pourquoi nous choisir ?</h2>
+                DrivingEngine est une entreprise professionnelle fondée sur quatre valeurs fondamentales, à savoir T.Q.A.T. - Transparence, responsabilité, confiance et qualité. Nous sommes fiers de nous-mêmes tant pour la qualité des produits que nous proposons que pour notre système de support client amical et dévoué. Avec toute demande qui arrive, nous nous efforçons de fournir au client toutes les options de véhicule possibles et avons un délai de livraison et un emplacement fixes - le tout dans les 5 minutes!
+            </div>
+        </div>
+    </div>
+    <!--/.Section : FAQ-->
+
+    <!--Footer-->
+    <div class="container-fluid footer py-5 px-5">
+      <div class="row">
+        <div class="col-md-3">
+          <h2 class="pb-5">A propos</h2>
+          <a class="navbar-brand" href="#"><span>Driving</span>Engine</a>
+          <p class="pt-3">En tant que l'une des premières sociétés de location de voitures internationales et les plus influentes au monde - avec plus de 100 ans d'expérience dans le secteur - nous avons acquis une réputation de confiance en tant que leader mondial de la location de voitures.</p>
+        </div>
+        <div class="col-md-3">
+          <h2 class="pb-5">Liens utiles</h2>
+          <p>
+            <ul class="liens">
+              <li class="nav-item active pt-3">
+                <a class="nav-link px-3" href="accueil.html">Accueil <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item pt-3">
+                <a class="nav-link px-3" href="apropos.html">A propos</a>
+              </li>
+              <li class="nav-item pt-3 ">
+                <a class="nav-link px-3" href="voiture.html">Nos voitures</a>
+              </li>
+              <li class="nav-item pt-3">
+                <a class="nav-link px-3 mb-3" href="contact.html">Contact</a>
+              </li>
+              <li>
+            </ul>    
+          </p>
+        </div>
+        <div class="col-md-3">
+          <h2 class="pb-5">Horraires de travail</h2>
+          <p class="py-2">Lundi-Vendredi : 8h à 18h</p>
+          <p class="py-2">Samedi : 9h à 13h</p>
+        </div>
+        <div class="col-md-3">
+          <h2 class="pb-5">Nous contacter</h2>
+          <div class="row py-3">
+            <div class="col-md-3"><i class="fas fa-phone-alt"></i></div>
+            <div class="col-md-9"> +216 55 847 633</div>
+          </div>
+          <div class="row py-3">
+            <div class="col-md-3"><i class="fas fa-envelope"></i></div>
+            <div class="col-md-9"> contact@drivingengine.com</div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center pt-3">
+              <i class="fab fa-facebook-square fa-2x"></i>
+              <i class="fab fa-instagram fa-2x ps-5"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.Footer-->
+
+    <!--Scripts JS-->    
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
